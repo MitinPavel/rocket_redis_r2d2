@@ -4,13 +4,17 @@ A simple example app for:
 * [Rocket web framework](https://rocket.rs/)
 * [Redis db](https://redis.io/)
 * [r2d2 connection pool](https://github.com/sfackler/r2d2)
+
 ## Tags
 
 Rust, Rocket, Redis, r2d2
  
 ## Getting started
 
+Having Redis up and running on `localhost:6379`
 ```
+git clone git@github.com:MitinPavel/rocket_redis_r2d2.git
+cd rocket_redis_r2d2/
 cargo run
 ```
 
