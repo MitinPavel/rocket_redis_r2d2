@@ -1,0 +1,6 @@
+[package]
+name = "rocket_redis_r2d2"
+version = "0.1.0"
+authors = ["Pavlo Mitin <mitin.pavel@gmail.com>"]
+
+[dependencies]
