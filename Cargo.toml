@@ -4,3 +4,8 @@ version = "0.1.0"
 authors = ["Pavlo Mitin <mitin.pavel@gmail.com>"]
 
 [dependencies]
+rocket = "0.3.3"
+rocket_codegen = "0.3.3"
+redis = "0.8.0"
+r2d2 = "*"
+r2d2_redis = "*"
