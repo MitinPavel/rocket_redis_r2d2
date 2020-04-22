@@ -8,7 +8,7 @@ use r2d2_redis::RedisConnectionManager;
 const REDIS_ADDRESS: &'static str = "redis://localhost:6379";
 
 // Pool initiation.
-// Call it starting an app and store a pul as a rocket managed state.
+// Call it starting an app and store a pool as a rocket managed state.
 pub fn pool() -> Pool {
     let manager = RedisConnectionManager::new(REDIS_ADDRESS).expect("connection manager");
     let redis_config = Default::default();
